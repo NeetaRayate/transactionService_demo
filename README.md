@@ -1,12 +1,13 @@
 # TransactionService 
-This microserice is created for demo purpose. 
+This Microservice is created for demo purpose. 
 
 # Technologies used
  1. spring boot
  2. java
  3. h2 database (data persistence.)
 
-
+# High Level Design
+![image](https://user-images.githubusercontent.com/67622883/179180235-c5bdb93a-068e-4642-9bd8-de705ba89e06.png)
 # connect to h2 database
  1. open :  http://localhost:8083/h2-console
  
@@ -30,7 +31,7 @@ This microserice is created for demo purpose.
   
 4. **GET /rest/v1/transaction/avgspending?category=**\<**category**\>
   
-   - get monthly avarage spening for a given category.
+   - get monthly average spening for a given category.
   
 5. **GET /rest/v1/transaction/highspending?category=**\<**category**\>**&year=**\<**year**\>
   
